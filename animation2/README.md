@@ -47,3 +47,34 @@ the transform property can be used as a shorthand property in the following way:
 ```css
     transform: translate(50px, 100px) rotate(45deg) scale(2, 2);
 ```
+
+### transform with translate property
+
+the translate property is used to move elements in 2D and 3D space.
+
+the  translate property can be used in the following way:
+    
+    ```css
+        transform: translate(x, y);
+    ```
+
+    the x value is used to move the element horizontally, the y value is used to move the element vertically.
+
+    
+example:
+
+    ```css
+        transform: translate(50px, 100px);
+    ```
+
+translate can be used in 3 different ways: 
+
+* translate(): in this way, an element can be moved both horizontally and vertically.
+* translateX(): in this way, an element  is  moved horizontally.
+* translateY(): in this way, an element is moved vertically.
+
+```css
+    transform: translate(50px, 100px); /*this element will be moved in both horzontal and vertical directions*/
+    transform: translateX(50px) /* this element will be moved in an horizontal direction*/
+    transform: translateY(50px) /*this element will be moved in a vertical direction*/
+```

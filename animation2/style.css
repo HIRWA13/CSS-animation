@@ -1,1 +1,29 @@
-/*  */
+.container {
+    position: relative;
+    overflow: hidden;
+    background: rgb(236, 235, 235);
+}
+
+.container  .div {
+    background: rgb(174, 144, 144);
+    transition: all 0.5s ease-in-out;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.container  .one {
+    margin-left: 20px;
+}
+.container  .two {
+    margin-left: 80px;
+}
+.container  .three {
+    margin-left: 140px;
+}
+
+.container  .one:hover {
+    cursor: pointer;
+    background: #4b3434;
+    transform: translate(50px, 50px);
+}
