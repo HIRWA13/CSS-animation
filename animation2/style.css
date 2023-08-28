@@ -25,5 +25,15 @@
 .container  .one:hover {
     cursor: pointer;
     background: #4b3434;
-    transform: translate(50px, 50px);
+    transform: translateX(20px);
+}
+.container  .two:hover {
+    cursor: pointer;
+    background: #4b3434;
+    transform: translateX(-20px);
+}
+.container  .three:hover {
+    cursor: pointer;
+    background: #4b3434;
+    transform: translateY(-30px);
 }
