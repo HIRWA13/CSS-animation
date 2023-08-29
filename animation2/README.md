@@ -1,3 +1,5 @@
+# Introduction to Animation with CSS
+
 ## CSS animation using the transform property
 
 with the transform property you can move, rotate, scale, and skew elements in 2D and 3D space.
@@ -80,7 +82,7 @@ translate can be used in 3 different ways:
 ```
 
 
-## Transitions
+#### Transitions
 
 CSS transitions allows you to change property values smoothly, over a given duration.
 CSS transitions allows us to animate changes to a CSS property.
@@ -101,7 +103,7 @@ example:
     ```
 in the above example, the background color of the button will change from red to blue smoothly when the user hovers over the button.
 
-### The transition timing function:
+#### The transition timing function:
 
 the transition timing function is used to specify the speed of the transition effect.
 we use the transition timing function when we want to change the feel of our animation.
@@ -127,6 +129,100 @@ example:
             }
         ```
 
-### transition delay:
+#### transition delay:
 
 the transition delay property specifies when the transition effect will start in seconds or milliseconds.
+
+### transform with scale property
+
+the scale property is used to scale elements in 2D and 3D space.
+by scale I mean that we can use the scale property to make the element smaller or bigger depending on the value we gave the scale property.
+
+the scale property can be used in the following way:
+
+    ```css
+        transform: scale(x, y);
+    ```
+
+    the x value is used to scale the element horizontally, the y value is used to scale the element vertically.
+
+example:
+
+    ```css
+        transform: scale(2, 2);
+    ```
+
+scale can be used in 3 different ways:
+
+* scale(): in this way, an element can be scaled both horizontally and vertically.
+* scaleX(): in this way, an element is scaled horizontally.
+* scaleY(): in this way, an element is scaled vertically.
+
+```css
+    transform: scale(2) /*this will increase the size of an element on both x-axis and y-axis*/
+    transform: scaleY(2) /*this will increase the size of an element on  y-axis*/
+    transform: scaleX(2) /*this will increase the size of an element on  x-axis*/
+```
+
+### transform with rotate property:
+
+the rotate property is used to rotate elements in 2D and 3D space.
+
+the rotate property can be used in the following way:
+    
+        ```css
+            transform: rotate(angle);
+        ```
+
+        we use the angle value to rotate the element at certain amout of degrees depending on the initial value the element had.
+
+example:
+
+        ```css
+            transform: rotate(45deg);
+        ```
+
+        the above element will rotate 45 degrees clockwise.
+
+        ```css
+            transform: rotate(-45deg);
+        ```
+
+        the above element will rotate 45 degrees anti-clockwise
+
+### transform with skew property:
+
+the skew property is used to skew elements in either horizontal or vertical directions.
+
+the skew property can be used in the following way:
+
+        ```css
+            transform: skew(x-angle, y-angle);
+        ```
+
+        the x-angle value is used to skew the element horizontally, the y-angle value is used to skew the element vertically.
+
+example:
+
+        ```css
+            transform: skew(45deg, 45deg);
+        ```
+        the above element will skew 45 degrees horizontally and 45 degrees vertically.
+
+skew can be used in 3 different ways:
+
+* skew(): in this way, an element can be skewed both horizontally and vertically.
+* skewX(): in this way, an element is skewed horizontally.
+* skewY(): in this way, an element is skewed vertically.
+
+```css
+    transform: skew(45deg, 45deg) /*this will skew an element both horizontally and vertically*/
+    transform: skewX(45deg) /*this will skew an element horizontally*/
+    transform: skewY(45deg) /*this will skew an element vertically*/
+```
+
+
+
+## Author
+
+* **Junior Hirwa** - [](https://github.com/HIRWA13)
