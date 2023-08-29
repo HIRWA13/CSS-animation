@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .container {
     position: relative;
     overflow: hidden;
@@ -6,7 +12,6 @@
 
 .container  .div {
     background: rgb(174, 144, 144);
-    transition: all 0.5s ease-in-out;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -25,7 +30,7 @@
 .container  .one:hover {
     cursor: pointer;
     background: #4b3434;
-    transform: translateX(20px);
+    transform: translateX(40px);
 }
 .container  .two:hover {
     cursor: pointer;
@@ -35,5 +40,30 @@
 .container  .three:hover {
     cursor: pointer;
     background: #4b3434;
-    transform: translateY(-30px);
+    transform: translateX(30px);
+}
+.one {
+    transition: transform .4s;
+}
+.two {
+   transition: transform .2s;
+}
+.three {
+    transition: transform .5s;
+}
+
+.btn1 {
+    padding: 20px 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+}
+.btn1:hover {
+    cursor: pointer;
+    background: red;
+    color: white;
+    transform: translateX(20px);
+    transition: transform .4s ease-out .1s;
 }
