@@ -12,9 +12,9 @@ the transform property can be used as a single property, this means that you can
 
 the transform property can be used as a single property in the following way:
 
-```css
-    transform: value;
-```
+    ```css
+        transform: value;
+    ```
 
 the value of the transform property can be one of the following values:
 
@@ -46,7 +46,7 @@ the transform property can be used as a shorthand property.
 
 the transform property can be used as a shorthand property in the following way:
 
-```css
+```cs
     transform: translate(50px, 100px) rotate(45deg) scale(2, 2);
 ```
 
@@ -65,7 +65,7 @@ the  translate property can be used in the following way:
     
 example:
 
-    ```css
+    ```cs
         transform: translate(50px, 100px);
     ```
 
@@ -75,7 +75,7 @@ translate can be used in 3 different ways:
 * translateX(): in this way, an element  is  moved horizontally.
 * translateY(): in this way, an element is moved vertically.
 
-```css
+```cs
     transform: translate(50px, 100px); /*this element will be moved in both horzontal and vertical directions*/
     transform: translateX(50px) /* this element will be moved in an horizontal direction*/
     transform: translateY(50px) /*this element will be moved in a vertical direction*/
