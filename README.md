@@ -40,3 +40,8 @@ div {
 ## What is the difference between animation and transition?
 
 The difference between animation and transition is that animation is a change from one set of CSS styles to another. Transition is a change from one CSS style to another.
+
+
+## Author
+
+* [Junior Hirwa](https://github.com/HIRWA13)
