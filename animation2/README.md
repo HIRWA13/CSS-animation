@@ -222,7 +222,3 @@ skew can be used in 3 different ways:
 ```
 
 
-
-## Author
-
-* [Junior Hirwa](https://github.com/HIRWA13)
